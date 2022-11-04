@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form action="">
+        <label for="szam_a">Kérem az első számot:</label>
+        <br>
+        <input type="text" id="szam_a">
+        <br>
+        <label for="szam_b">Kérem a második számot:</label>
+        <br>
+        <input type="text" id="szam_b">
+        <br>
+        <input type="button" id="osszeadasID" onclick="osszeadas()" value="+">
+        <input type="button" id="kivonasID" onclick="kivonas()" value="-">
+        <input type="button" id="szorzasID" onclick="szorzas()" value="*">
+        <input type="button" id="osztasID" onclick="osztas()" value="/">
+        <h2>Eredmény:</h2>
+        <h2 id="eredmeny"></h2>
+    </form>
+</body>
+</html>
